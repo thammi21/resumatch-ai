@@ -1,0 +1,36 @@
+# Virtual environment
+venv/
+
+# Environment variables — never push API keys
+.env
+
+# Generated outputs — user-specific, not source code
+outputs/
+
+# Test scripts — local development only
+test_models.py
+test_parser.py
+test_chains.py
+test_helpers.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# PDF files — uploaded by users locally
+*.pdf
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
