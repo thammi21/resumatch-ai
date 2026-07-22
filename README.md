@@ -12,7 +12,7 @@ Upload your resume PDF and paste a job description. The pipeline runs four AI ch
 - **Downloadable ZIP** — all outputs bundled for offline use
 
 ## Demo
-
+ 
 > Upload resume → paste JD → click Analyse → download your package
 
 ## Tech stack
@@ -112,3 +112,7 @@ streamlit run app.py
 - How `PydanticOutputParser` injects format instructions directly into prompts
 - The difference between `RunnableLambda` (any Python function) and `RunnablePassthrough` (preserve inputs while adding new keys)
 - How to use callbacks for real-time progress tracking in Streamlit
+
+  🔴 **[Live Demo → resumatch-ai.streamlit.app](https://my-resumatch-ai.streamlit.app/)**
+
+> ⚠️ App may take 30–60 seconds to wake up if not visited recently.
